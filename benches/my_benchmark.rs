@@ -1,7 +1,7 @@
 use criterion::criterion_group;
 use criterion::criterion_main;
 use criterion::Criterion;
-use simd_test::feed_forward;
+use mlp::feed_forward;
 
 pub fn criterion_benchmark(c: &mut Criterion) {
     const NUM_INPUTS: usize = 64;
