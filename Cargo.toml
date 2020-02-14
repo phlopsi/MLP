@@ -1,5 +1,5 @@
 [package]
-name = "simd_test"
+name = "mlp"
 version = "0.1.0"
 authors = ["Phlopsi <nbphobos@gmail.com>"]
 edition = "2018"
